@@ -1,7 +1,6 @@
 
 import { TryCatch } from "../middlewares/error.js";
 import ErrorHandler from "../utils/utility-class.js";
-// import { generate } from 'shortid';
 import { nanoid } from "nanoid";
 import URL from '../models/url.js';
 

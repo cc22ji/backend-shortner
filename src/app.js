@@ -1,6 +1,5 @@
 import express, { json, urlencoded } from 'express';
 const app = express();
-// require('dotenv').config();
 import dbConnect from './utils/connection.js';
 import users from './routes/users.js';
 import url from './routes/url.js';
