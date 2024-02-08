@@ -8,7 +8,7 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 
 const port = process.env.PORT || 4000
-const allowedOrigins = /* process.env.ALLOWED_ORIGIN.split(",") ?? */ "https://shortner-frontend-k1lt.vercel.app,http://localhost:3000"
+const allowedOrigins =  process.env.ALLOWED_ORIGIN.split(",") ??  "https://shortner-frontend-rose.vercel.app,http://localhost:3000"
 
 export const CORS_OPTIONS = {
   origin: function (origin, callback) {
